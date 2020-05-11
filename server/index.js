@@ -1,13 +1,11 @@
 const express = require('express');
+const path = require('path');
 
 const app = express();
 const port = process.env.PORT || 3000;
 
-app.get('/', (req, res) => {
-  // Need to ping all services for the data that should be rendered
-  res.status(200).send('Hello World!');
-})
+app.use(express.static(path.join(__dirname, '../public')));
 
 app.listen(port, () => {
-  console.log(`Proxy server listining on http://127.0.0.1:${port}`);
+  console.log(`Proxy server listening on http://127.0.0.1:${port}`);
 })
