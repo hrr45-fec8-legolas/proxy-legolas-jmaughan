@@ -1,0 +1,31 @@
+.product-page-wrapper {
+  margin-top: 20px;
+  padding-top: 0;
+  min-width: 996px;
+  padding: 14px 18px 18px;
+  margin: 0 auto;
+}
+
+.main-product-info {
+  display: grid;
+  grid-template-columns: 40% 55%;
+  gap: 5%;
+  /* display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between; */
+}
+
+#reviewsapp .topDivider {
+  display: none;
+}
+
+hr {
+  background-color: transparent;
+  display: block;
+  height: 1px;
+  border-width: 0;
+  border-top: 1px solid #e7e7e7;
+  line-height: 19px;
+  margin-top: 0;
+  margin-bottom: 14px;
+}

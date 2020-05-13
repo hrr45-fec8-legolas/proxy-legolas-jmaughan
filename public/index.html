@@ -4,15 +4,19 @@
     <meta charset="UFT-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon Product Page</title>
+    <link rel='stylesheet' type="text/css" href='./style.css' />
     <link rel='stylesheet' type="text/css" href='http://localhost:3001/style.css' />
     <link rel='stylesheet' type="text/css" href='http://localhost:3004/style.css' />
   </head>
-  <body>
-    <div>
+  <body class="product-page-wrapper">
+    <div class="main-product-info">
       <section id="singleItemPage"></section>
       <section id="item-details"></section>
     </div>
+    <div style="clear: both;"></div>
+    <hr>
     <section id="sponsored-related-products"></section>
+    <hr>
     <section id="reviewsapp"></section>
     <script src="http://localhost:3001/singleItemPage.js"></script>
     <script src="http://localhost:3002/dist/bundle.js"></script>
