@@ -18,7 +18,7 @@ app.use('/items/:id', createProxyMiddleware({
 }));
 
 app.use('/api/related_products/:id', createProxyMiddleware({
-  target: 'http://127.0.0.1:3003/',
+  target: 'http://18.212.179.210:3003/',
   changeOrigin: true,
 }));
 
@@ -27,6 +27,4 @@ app.use('/api/allreviews', createProxyMiddleware({
   changeOrigin: true,
 }));
 
-app.listen(port, () => {
-  console.log(`Proxy server listening on http://127.0.0.1:${port}`);
-});
+app.listen(port);
