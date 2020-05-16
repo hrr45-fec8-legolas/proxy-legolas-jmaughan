@@ -10,13 +10,6 @@
   display: grid;
   grid-template-columns: 40% 55%;
   gap: 5%;
-  /* display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between; */
-}
-
-#reviewsapp .topDivider {
-  display: none;
 }
 
 hr {
