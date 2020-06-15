@@ -10,6 +10,7 @@
   - https://github.com/hrr45-fec8-legolas/reviews
 
 ## Screenshots
-
+### Top of Page
 ![Proxy server loading all services](https://geophray.s3-us-west-2.amazonaws.com/public/fec/product-page.png "Proxy showing all components loading.")
+### Scrolled down to include reviews section
 ![Product page scrolled down to reviews section](https://geophray.s3-us-west-2.amazonaws.com/public/fec/product-page-scrolled.png "Product page scrolled down to reviews section")
